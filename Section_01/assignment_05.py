@@ -24,9 +24,10 @@ word = "Cool"
 
 # Your code below:
 
+l = len(chars)
+result = chars[0:(l/2)] + word + chars[(l/2):]
 
-
-
+print(result)
 
 
 
